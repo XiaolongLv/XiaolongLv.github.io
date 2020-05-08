@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jonathanlv.com/"/>
-  <updated>2020-05-04T09:27:08.270Z</updated>
+  <updated>2020-05-07T14:21:16.563Z</updated>
   <id>https://jonathanlv.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开博寄语</title>
+    <link href="https://jonathanlv.com/2020/05/07/article-title-1/"/>
+    <id>https://jonathanlv.com/2020/05/07/article-title-1/</id>
+    <published>2020-05-07T11:48:56.000Z</published>
+    <updated>2020-05-07T14:21:16.563Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;欢迎阅读&quot;&gt;&lt;a href=&quot;#欢迎阅读&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="心得" scheme="https://jonathanlv.com/categories/%E5%BF%83%E5%BE%97/"/>
+    
+    
+      <category term="blog" scheme="https://jonathanlv.com/tags/blog/"/>
+    
+      <category term="博客" scheme="https://jonathanlv.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="心得" scheme="https://jonathanlv.com/tags/%E5%BF%83%E5%BE%97/"/>
+    
+  </entry>
   
   <entry>
     <title>我的博客开章了，欢迎哦！</title>
