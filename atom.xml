@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jonathanlv.com/"/>
-  <updated>2020-05-08T10:31:16.624Z</updated>
+  <updated>2020-05-10T12:29:16.608Z</updated>
   <id>https://jonathanlv.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>什么是modbus协议?</title>
+    <link href="https://jonathanlv.com/2020/05/10/article-title-2/"/>
+    <id>https://jonathanlv.com/2020/05/10/article-title-2/</id>
+    <published>2020-05-10T12:30:56.000Z</published>
+    <updated>2020-05-10T12:29:16.608Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;什么是Modbus协议？&quot;&gt;&lt;a href=&quot;#什么是Modbus协议？&quot; class=&quot;headerlink&quot; title=&quot;什么是Modbus协议？&quot;&gt;&lt;/a&gt;什么是Modbus协议？&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;引用&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="通讯" scheme="https://jonathanlv.com/categories/%E9%80%9A%E8%AE%AF/"/>
+    
+    
+      <category term="通讯" scheme="https://jonathanlv.com/tags/%E9%80%9A%E8%AE%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>开博寄语</title>
@@ -43,33 +70,6 @@
       <category term="博客" scheme="https://jonathanlv.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
       <category term="blog" scheme="https://jonathanlv.com/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>什么是modbus协议?</title>
-    <link href="https://jonathanlv.com/2020/05/07/article-title-2/"/>
-    <id>https://jonathanlv.com/2020/05/07/article-title-2/</id>
-    <published>2020-05-07T11:48:56.000Z</published>
-    <updated>2020-05-10T12:26:14.379Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;什么是Modbus协议？&quot;&gt;&lt;a href=&quot;#什么是Modbus协议？&quot; class=&quot;headerlink&quot; title=&quot;什么是Modbus协议？&quot;&gt;&lt;/a&gt;什么是Modbus协议？&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;引用&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="通讯" scheme="https://jonathanlv.com/categories/%E9%80%9A%E8%AE%AF/"/>
-    
-    
-      <category term="通讯" scheme="https://jonathanlv.com/tags/%E9%80%9A%E8%AE%AF/"/>
     
   </entry>
   
