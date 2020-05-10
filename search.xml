@@ -20,11 +20,36 @@
       
         <tags>
             
-            <tag> blog </tag>
+            <tag> 心得 </tag>
             
             <tag> 博客 </tag>
             
-            <tag> 心得 </tag>
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是modbus协议?</title>
+      <link href="/2020/05/07/article-title-2/"/>
+      <url>/2020/05/07/article-title-2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="什么是Modbus协议？"><a href="#什么是Modbus协议？" class="headerlink" title="什么是Modbus协议？"></a>什么是Modbus协议？</h1><blockquote><p>引用<a href="https://baike.baidu.com/item/Modbus%E9%80%9A%E8%AE%AF%E5%8D%8F%E8%AE%AE/5972462?fromtitle=ModBus&fromid=305501&fr=aladdin" target="_blank" rel="noopener">百度百科</a></p></blockquote><p>  Modbus是一种串行通信协议，是Modicon公司（现在的施耐德电气 Schneider Electric）于1979年为使用可编程逻辑控制器（PLC）通信而发表。Modbus已经成为工业领域通信协议事实上的业界标准，并且现在是工业电子设备之间常用的连接方式。 </p><p>  Modbus比其他通信协议使用的更广泛的主要原因有：</p><blockquote><ul><li>公开发表并且无著作权要求易于部署和维护</li><li>对供应商来说，修改移动本地的比特或字节没有很多限制</li><li>Modbus允许多个(大约240个)设备连接在同一个网络上进行通信。</li></ul></blockquote><p>举个例子，一个由测量温度和湿度的设备，并且将结果发送给计算机。在数据采集与监视控制系统（SCADA）中，Modbus通常用来连接监控计算机和远程终端控制系统（RTU）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 通讯 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 通讯 </tag>
             
         </tags>
       
@@ -51,9 +76,9 @@
       
         <tags>
             
-            <tag> blog </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> blog </tag>
             
         </tags>
       
