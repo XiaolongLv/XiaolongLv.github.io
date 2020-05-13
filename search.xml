@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何快速使用花生壳端口映射</title>
+      <link href="/2020/05/13/article-title-3/"/>
+      <url>/2020/05/13/article-title-3/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="首先要理解什么是端口映射？"><a href="#首先要理解什么是端口映射？" class="headerlink" title="首先要理解什么是端口映射？"></a>首先要理解什么是端口映射？</h2><p>端口映射是NAT地址转换的一种，它可以把在公网的地址转翻译成私有地址，采用路由方式的ADSL宽带路由器拥有一个动态或固定的公网IP。分为动态和静态两种  。<br>端口映射功能可以让内部网络中某台机器对外部提供WWW服务，这不是将真P地址直接转到内部提供www服务的主机。<br>简答的来说就是局域网内的web应用，想要局域网外的机器访问，那就让局域网内的应用映射到外网上，供外网的人访问。</p><h2 id="花生壳是如何配置呢？"><a href="#花生壳是如何配置呢？" class="headerlink" title="花生壳是如何配置呢？"></a>花生壳是如何配置呢？</h2><ol><li>从官网下载花生壳Windows版（<a href="https://hsk.oray.com/download/）目前官网最新的是5.1.0.25265" target="_blank" rel="noopener">https://hsk.oray.com/download/）目前官网最新的是5.1.0.25265</a><br><img src="1.png" alt></li><li>安装花生壳<br><img src="2.png" alt></li><li>登录账户【微信直接扫二维码就行】<br><img src="3.png" alt></li><li>点击右下角”+”添加映射<br><img src="5.png" alt></li><li>注意:提供免费的接口协议只有TCP协议，如果想要Web形式访问【B/S端应用程序必须申请】，需要花费6元开通Http、Https协议。<br><img src="9.png" alt><br><img src="6.png" alt></li><li>开通完之后,填写好内网地址，内网端口，一般服务默认Http为80，Https为443，有时候端口不对需要到其服务配置里查看。</li><li>最后配置好，大功告成，别忘了诊断下网页是否能成功访问以及端口是否映射成功。<br><img src="8.png" alt></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 端口映射 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 端口映射 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>什么是modbus协议?</title>
       <link href="/2020/05/10/article-title-2/"/>
       <url>/2020/05/10/article-title-2/</url>
@@ -47,10 +72,6 @@
             
             <tag> 心得 </tag>
             
-            <tag> 博客 </tag>
-            
-            <tag> blog </tag>
-            
         </tags>
       
     </entry>
@@ -76,9 +97,9 @@
       
         <tags>
             
-            <tag> 博客 </tag>
-            
             <tag> blog </tag>
+            
+            <tag> 博客 </tag>
             
         </tags>
       

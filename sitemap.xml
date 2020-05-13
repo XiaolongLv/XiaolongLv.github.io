@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jonathanlv.com/2020/05/10/article-title-2/</loc>
+    <loc>https://jonathanlv.com/2020/05/13/article-title-3/</loc>
     
-    <lastmod>2020-05-10T12:29:16.608Z</lastmod>
+    <lastmod>2020-05-13T13:35:20.990Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://jonathanlv.com/2020/05/07/article-title-1/</loc>
     
-    <lastmod>2020-05-08T10:31:16.624Z</lastmod>
+    <lastmod>2020-05-13T13:01:16.191Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jonathanlv.com/2020/05/10/article-title-2/</loc>
+    
+    <lastmod>2020-05-10T12:29:16.608Z</lastmod>
     
   </url>
   
@@ -58,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://jonathanlv.com/categories/index.html</loc>
+    <loc>https://jonathanlv.com/tags/index.html</loc>
     
     <lastmod>2020-04-04T11:43:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jonathanlv.com/tags/index.html</loc>
+    <loc>https://jonathanlv.com/categories/index.html</loc>
     
     <lastmod>2020-04-04T11:43:42.000Z</lastmod>
     
