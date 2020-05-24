@@ -449,7 +449,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     }
 
     #vcomments img {
-        max-width: 100%;
+        /* max-width: 100%; */
         height: auto;
         cursor: pointer;
     }
@@ -651,6 +651,9 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         left: unset;
         visibility: visible;
     }
+	.v[data-class=v] .vinput {
+     padding: 0px 0px;
+    }
 </style>
 
 <div class="card valine-card" data-aos="fade-up">
@@ -660,6 +663,12 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <script src="/libs/valine/av-min.js"></script>
 <script src="/libs/valine/Valine.min.js"></script>
 <!-- <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script> -->
+<!-- do not set the version number -->
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<!-- or set latest -->
+<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<!-- or Default value -->
+<script src="//unpkg.com/valine"></script>
 
 <script>
     new Valine({
@@ -676,24 +685,26 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     });
 </script>
 
+
             
 
         </div>
     </div>
 </main>
     <footer class="page-footer bg-color">
-    <div class="container row center-align">
+    
+	<div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2020-2020 JonathanLv. 版权所有
-
+            &copy; 2020-2020 JonathanLv. 版权所有           
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
             <span class="white-color">9.2k</span>
-            
-
-            <br>
+                       
+           
             <span id="sitetime"></span>
-
             
             
             <br>
@@ -790,7 +801,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+        document.getElementById("sitetime").innerHTML = "|&nbsp;本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
     }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
 </script>
@@ -856,6 +867,13 @@ $(function () {
 
     <!-- 雪花特效 -->
     
+	
+	<!-- 天气插件 -->
+	<!-- jonathanlv -->
+    <script type="text/javascript">
+    WIDGET = {FID: 'bo3F2wHjwD'}
+    </script>
+    <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
 
 </body>
 

@@ -386,14 +386,14 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
 
 <div class="statis">
-    <span class="count"><a href="/categories" target="_blank">7</a></span>
+    <span class="count"><a href="/categories" target="_blank">6</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags" target="_blank">7</a></span>
+    <span class="count"><a href="/tags" target="_blank">6</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -415,14 +415,14 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
 
 <div class="statis">
-    <span class="count"><a href="/categories" target="_blank">7</a></span>
+    <span class="count"><a href="/categories" target="_blank">6</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags" target="_blank">7</a></span>
+    <span class="count"><a href="/tags" target="_blank">6</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -589,7 +589,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"心得","value":1},{"name":"blog","value":1},{"name":"法律","value":1},{"name":"通讯","value":1},{"name":"端口映射","value":1},{"name":"博客","value":1},{"name":"日记","value":1}],
+                data: [{"name":"心得","value":1},{"name":"通讯","value":1},{"name":"端口映射","value":1},{"name":"法律","value":1},{"name":"日记","value":1},{"name":"博客","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -613,7 +613,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["心得","blog","博客","法律","通讯","端口映射","日记"]
+                data: ["心得","通讯","端口映射","法律","日记","博客"]
             }
         ],
         yAxis: [
@@ -626,7 +626,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1,1,1,1,1,1],
+                data: [1,1,1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -681,18 +681,19 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     </div>
 </main>
     <footer class="page-footer bg-color">
-    <div class="container row center-align">
+    
+	<div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2020-2020 JonathanLv. 版权所有
-
+            &copy; 2020-2020 JonathanLv. 版权所有           
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
             <span class="white-color">9.2k</span>
-            
-
-            <br>
+                       
+           
             <span id="sitetime"></span>
-
             
             
             <br>
@@ -789,7 +790,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+        document.getElementById("sitetime").innerHTML = "|&nbsp;本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
     }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
 </script>
@@ -855,6 +856,13 @@ $(function () {
 
     <!-- 雪花特效 -->
     
+	
+	<!-- 天气插件 -->
+	<!-- jonathanlv -->
+    <script type="text/javascript">
+    WIDGET = {FID: 'bo3F2wHjwD'}
+    </script>
+    <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
 
 </body>
 

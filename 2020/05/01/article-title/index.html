@@ -354,7 +354,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -471,10 +471,6 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/blog/" target="_blank">
-                            <span class="chip bg-color">blog</span>
-                        </a>
-                        
                         <a href="/tags/博客/" target="_blank">
                             <span class="chip bg-color">博客</span>
                         </a>
@@ -487,11 +483,7 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/blog/" class="post-category" target="_blank">
-                            blog
-                        </a>
-                        
-                        <a href="/categories/blog/博客/" class="post-category" target="_blank">
+                        <a href="/categories/博客/" class="post-category" target="_blank">
                             博客
                         </a>
                         
@@ -794,7 +786,7 @@
     }
 
     #vcomments img {
-        max-width: 100%;
+        /* max-width: 100%; */
         height: auto;
         cursor: pointer;
     }
@@ -996,6 +988,9 @@
         left: unset;
         visibility: visible;
     }
+	.v[data-class=v] .vinput {
+     padding: 0px 0px;
+    }
 </style>
 
 <div class="card valine-card" data-aos="fade-up">
@@ -1005,6 +1000,12 @@
 <script src="/libs/valine/av-min.js"></script>
 <script src="/libs/valine/Valine.min.js"></script>
 <!-- <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script> -->
+<!-- do not set the version number -->
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<!-- or set latest -->
+<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+<!-- or Default value -->
+<script src="//unpkg.com/valine"></script>
 
 <script>
     new Valine({
@@ -1021,6 +1022,7 @@
     });
 </script>
 
+
     
 
     
@@ -1036,7 +1038,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="开博寄语">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="开博寄语">
                         
                         <span class="card-title">开博寄语</span>
                     </div>
@@ -1085,7 +1087,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="我的博客开章了，欢迎哦！">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="我的博客开章了，欢迎哦！">
                         
                         <span class="card-title">我的博客开章了，欢迎哦！</span>
                     </div>
@@ -1108,11 +1110,7 @@
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/blog/" class="post-category" target="_blank">
-                                    blog
-                                </a>
-                            
-                            <a href="/categories/blog/博客/" class="post-category" target="_blank">
+                            <a href="/categories/博客/" class="post-category" target="_blank">
                                     博客
                                 </a>
                             
@@ -1123,10 +1121,6 @@
 
                 
                 <div class="card-action article-tags">
-                    
-                    <a href="/tags/blog/" target="_blank">
-                        <span class="chip bg-color">blog</span>
-                    </a>
                     
                     <a href="/tags/博客/" target="_blank">
                         <span class="chip bg-color">博客</span>
@@ -1297,18 +1291,19 @@
 
 
     <footer class="page-footer bg-color">
-    <div class="container row center-align">
+    
+	<div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2020-2020 JonathanLv. 版权所有
-
+            &copy; 2020-2020 JonathanLv. 版权所有           
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
             <span class="white-color">9.2k</span>
-            
-
-            <br>
+                       
+           
             <span id="sitetime"></span>
-
             
             
             <br>
@@ -1405,7 +1400,7 @@
         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+        document.getElementById("sitetime").innerHTML = "|&nbsp;本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
     }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
 </script>
@@ -1471,6 +1466,13 @@ $(function () {
 
     <!-- 雪花特效 -->
     
+	
+	<!-- 天气插件 -->
+	<!-- jonathanlv -->
+    <script type="text/javascript">
+    WIDGET = {FID: 'bo3F2wHjwD'}
+    </script>
+    <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
 
 </body>
 
