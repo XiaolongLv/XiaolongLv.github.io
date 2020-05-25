@@ -354,7 +354,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -1012,7 +1012,7 @@
 <!-- 先引入样式,从footer提前 -->
 <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script> -->
-<script src="../js/Valine144.min.js"></script>
+<script src="../js/Valine.min.js"></script>
 <!-- 评论框美化 -->
 <style>
     .v .veditor{min-height: 10rem;
@@ -1097,6 +1097,7 @@
         }		
     });
 </script>
+
 </script>
 <!-- 今日诗词：随机返回一句古诗词名句的接口，宅到用来做 Valine 的 placeholder 显示内容 -->
 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
@@ -1105,7 +1106,14 @@
         var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author;
         document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
     })
+
 </script>
+<style>
+textarea[id='veditor']::placeholder{
+    color:#b3b3b3;font-size:14px;text-align:center;line-height:5rem;
+}
+</style>
+
 
 
     
@@ -1123,7 +1131,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="开博寄语">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="开博寄语">
                         
                         <span class="card-title">开博寄语</span>
                     </div>
@@ -1172,7 +1180,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="我的博客开章了，欢迎哦！">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="我的博客开章了，欢迎哦！">
                         
                         <span class="card-title">我的博客开章了，欢迎哦！</span>
                     </div>
