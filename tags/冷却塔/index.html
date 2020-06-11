@@ -460,7 +460,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/31.jpg" class="responsive-img" alt="冷却塔的清洗">
+                            <img src="/medias/featureimages/35.jpg" class="responsive-img" alt="冷却塔的清洗">
                             
                             <span class="card-title">冷却塔的清洗</span>
                         </div>
@@ -673,6 +673,14 @@ $(function () {
     WIDGET = {FID: 'bo3F2wHjwD'}
     </script>
     <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+	
+	<script type="text/javascript">
+    //只在桌面版网页启用特效
+    var windowWidth = $(window).width();
+    if (windowWidth > 768) {
+    document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+    }
+    </script>
 	
 </body>
 
