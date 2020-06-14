@@ -173,6 +173,15 @@
         </a>
     </li>
     
+    <li class="hide-on-med-and-down">
+        <a href="" class="waves-effect waves-light">
+            
+            <i class="fa fas fa-list"></i>
+            
+            <span>Medias</span>
+        </a>
+    </li>
+    
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
             <i id="searchIcon" class="fa fa-search" title="搜索"></i>
@@ -258,6 +267,15 @@
                 <i class="fa fa-fw fa-user-circle-o"></i>
                 
                 关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fas fa-list"></i>
+                
+                Medias
             </a>
         </li>
         
@@ -382,20 +400,20 @@ var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
             <div class="tag-chips">
                 
                 
-                <a href="/tags/通讯/" title="通讯: 1">
+                <a href="/tags/心得/" title="心得: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="通讯" style="background-color: #F9EBEA;">通讯
-                        <span class="tag-length">1</span>
+                            data-tagname="心得" style="background-color: #F9EBEA;">心得
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/心得/" title="心得: 2">
+                <a href="/tags/法律文献/" title="法律文献: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="心得" style="background-color: #F5EEF8;">心得
-                        <span class="tag-length">2</span>
+                            data-tagname="法律文献" style="background-color: #F5EEF8;">法律文献
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -418,19 +436,10 @@ var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
                 </a>
                 
                 
-                <a href="/tags/法律文献/" title="法律文献: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="法律文献" style="background-color: #FEF9E7;">法律文献
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/冷却塔/" title="冷却塔: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="冷却塔" style="background-color: #F8F9F9;">冷却塔
+                            data-tagname="冷却塔" style="background-color: #FEF9E7;">冷却塔
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -439,7 +448,16 @@ var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
                 <a href="/tags/博客/" title="博客: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="博客" style="background-color: #82E0AA;">博客
+                            data-tagname="博客" style="background-color: #F8F9F9;">博客
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/通讯/" title="通讯: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="通讯" style="background-color: #82E0AA;">通讯
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -468,7 +486,7 @@ var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"通讯","weight":1,"link":"/tags/通讯/"},{"text":"心得","weight":2,"link":"/tags/心得/"},{"text":"端口映射","weight":1,"link":"/tags/端口映射/"},{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"法律文献","weight":1,"link":"/tags/法律文献/"},{"text":"冷却塔","weight":1,"link":"/tags/冷却塔/"},{"text":"博客","weight":1,"link":"/tags/博客/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"心得","weight":2,"link":"/tags/心得/"},{"text":"法律文献","weight":1,"link":"/tags/法律文献/"},{"text":"端口映射","weight":1,"link":"/tags/端口映射/"},{"text":"日记","weight":1,"link":"/tags/日记/"},{"text":"冷却塔","weight":1,"link":"/tags/冷却塔/"},{"text":"博客","weight":1,"link":"/tags/博客/"},{"text":"通讯","weight":1,"link":"/tags/通讯/"}], {
         autoResize: true
     });
 </script>
