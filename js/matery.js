@@ -160,8 +160,10 @@ $(function () {
     });
 });
 
+
+
 var title2="msg=KZblog又有新评论啦~！--by Valine\n"
-var SCKEY_Qmsg="https://qmsg.zendee.cn:443/send/d430c40023c3257f6254dc9a2404d290"
+var SCKEY_Qmsg="https://qmsg.zendee.cn:443/send/d430c40023c3257f6254dc9a2404d290.html"
 var ValineButton=document.getElementsByClassName("vsubmit vbtn")[0];
 function send_valine_Qmsg(){
     var pagename=document.title;
