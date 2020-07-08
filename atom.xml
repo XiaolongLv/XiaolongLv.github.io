@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jonathanlv.com/"/>
-  <updated>2020-06-11T10:19:21.347Z</updated>
+  <updated>2020-07-08T12:36:02.661Z</updated>
   <id>https://jonathanlv.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>正确布线Modbus RS485通信系统的9条规则</title>
+    <link href="https://jonathanlv.com/2020/07/08/article-title-8/"/>
+    <id>https://jonathanlv.com/2020/07/08/article-title-8/</id>
+    <published>2020-07-08T11:56:34.000Z</published>
+    <updated>2020-07-08T12:36:02.661Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;正确布线Modbus-RS485通信系统的9条规则&quot;&gt;&lt;a href=&quot;#正确布线Modbus-RS485通信系统的9条规则&quot; class=&quot;headerlink&quot; title=&quot;正确布线Modbus RS485通信系统的9条规则&quot;&gt;&lt;/a&gt;正确布线Modbus
+        
+      
+    
+    </summary>
+    
+      <category term="技术文章" scheme="https://jonathanlv.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/"/>
+    
+    
+      <category term="RS485" scheme="https://jonathanlv.com/tags/RS485/"/>
+    
+      <category term="工业通信" scheme="https://jonathanlv.com/tags/%E5%B7%A5%E4%B8%9A%E9%80%9A%E4%BF%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>“我的好友今早猝死，年仅28岁”：年轻，早已不是挥霍健康的资本(转载)</title>
