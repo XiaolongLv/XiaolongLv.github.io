@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jonathanlv.com/"/>
-  <updated>2020-07-08T12:49:43.983Z</updated>
+  <updated>2020-08-08T04:11:17.275Z</updated>
   <id>https://jonathanlv.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020年8月8日</title>
+    <link href="https://jonathanlv.com/2020/08/08/article-title-9/"/>
+    <id>https://jonathanlv.com/2020/08/08/article-title-9/</id>
+    <published>2020-08-08T02:51:31.000Z</published>
+    <updated>2020-08-08T04:11:17.275Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;2020年8月8日，星期六，风和日丽，万里无云。&quot;&gt;&lt;a href=&quot;#2020年8月8日，星期六，风和日丽，万里无云。&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="日记" scheme="https://jonathanlv.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="日记" scheme="https://jonathanlv.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>正确布线Modbus RS485通信系统的9条规则</title>
